@@ -1,3 +1,5 @@
+package ru.sender;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
@@ -5,12 +7,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.jupiter.api.Test;
-import ru.netology.entity.Country;
-import ru.netology.entity.Location;
-import ru.netology.geo.GeoService;
-import ru.netology.i18n.LocalizationService;
-import ru.netology.sender.MessageSender;
-import ru.netology.sender.MessageSenderImpl;
+import ru.entity.Country;
+import ru.entity.Location;
+import ru.geo.GeoService;
+import ru.i18n.LocalizationService;
+import ru.sender.MessageSenderImpl;
 
 public class MessageSenderImplTest {
 
@@ -31,7 +32,7 @@ public class MessageSenderImplTest {
 
     }
 
-        //Тест на отправку английского текста при американском IP:
+    //Тест на отправку английского текста при американском IP:
 
     @Test
     void shouldSendEnglishMessageForAmericanIp() {

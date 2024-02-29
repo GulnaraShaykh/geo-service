@@ -1,12 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.netology.geo.GeoService;
-import ru.netology.geo.GeoServiceImpl;
-import ru.netology.i18n.LocalizationService;
-import ru.netology.i18n.LocalizationServiceImpl;
-import ru.netology.sender.MessageSender;
-import ru.netology.sender.MessageSenderImpl;
+import ru.geo.GeoService;
+import ru.geo.GeoServiceImpl;
+import ru.i18n.LocalizationService;
+import ru.i18n.LocalizationServiceImpl;
+import ru.sender.MessageSender;
+import ru.sender.MessageSenderImpl;
 
 public class Main {
 

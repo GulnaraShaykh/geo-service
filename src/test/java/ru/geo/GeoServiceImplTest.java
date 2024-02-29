@@ -1,8 +1,10 @@
+package ru.geo;
+
 import org.junit.jupiter.api.Test;
-import ru.netology.entity.Country;
-import ru.netology.entity.Location;
-import ru.netology.geo.GeoService;
-import ru.netology.geo.GeoServiceImpl;
+import ru.entity.Country;
+import ru.entity.Location;
+import ru.geo.GeoService;
+import ru.geo.GeoServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
